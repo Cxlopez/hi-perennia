@@ -1,4 +1,4 @@
-# Todo List
+# Hello
 
 This is a small app i made for `Perennia` in order to stand out a little. 
 It's not meant to be one of my public apps but if you want to check it out go right ahead!
