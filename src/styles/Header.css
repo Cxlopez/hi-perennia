@@ -1,0 +1,59 @@
+.container-header {
+  backface-visibility: hidden;
+
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.background {
+  display: flex;
+  /* background-position: bottom right; */
+  background: url(https://github.com/Cxlopez/hi-perennia/assets/93356900/e19998fc-65c2-4549-89ed-536c3e62cf31);
+  background-size: cover;
+
+  animation: moving 17s linear infinite;
+}
+
+.moving-vehicle {
+  width: 70%;
+
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes moving {
+  from { background-position: bottom right; }
+  to { background-position: bottom left; }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translate(100px);
+  }
+
+  80% {
+    transform: translate(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
+  80% {
+    transform: translate(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
