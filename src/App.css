@@ -7,3 +7,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background-image: linear-gradient(
+    to right bottom, 
+    rgba(167, 163, 163, 0.901), 
+    rgba(254, 254, 254, 0.793)
+  ),
+  url(https://wallpapercave.com/wp/wp3416412.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
